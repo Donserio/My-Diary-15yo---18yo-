@@ -5,12 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>My Diary</title>
+    <link rel="stylesheet" href="./CSS/style.css">
 </head>
 <body>
-    <div>
-     <h1>Today</h1>
-      <input type="date">
-      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <section>
+      <fieldset>
+           <h1>Today</h1>
+      <div class="entry">
+      <form action="">
+<!--  date div     -->
+      <div class="date">
+         <label for="date">Date</label><br>
+        <input type="date" class="">  
+      </div>
+<!--      textarea div-->
+      <div class="typing-area">
+       <label for="entry">The day's event</label><br>
+        <textarea name="" id="" cols="60" rows="20" ></textarea>  
+      </div>
+<!--      button-->
+       <button id="save-entry" class="save">Save</button>
+      </form>
     </div>
+          </fieldset>
+   </section>
 </body>
 </html>
