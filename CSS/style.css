@@ -104,9 +104,6 @@ table,th,td{
 
 
 td{
-    border-color:#FD4D02;
     padding:30px;
-    resize: vertical;
-/*    box-sizing: border-box;*/
-    text-overflow:ellipsis;
+
 }
