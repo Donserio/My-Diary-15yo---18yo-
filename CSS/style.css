@@ -1,6 +1,13 @@
 *{
     margin: 0;  
 } 
+
+body{
+    font-family: 'Tangerine', cursive;
+    font-size: px;
+/*    font-family: 'Dancing Script', cursive;*/
+}
+
 /*index page style*/
 /* nav style */
 ul {
@@ -40,10 +47,18 @@ a{
     text-align: center;
 }
 
+p{
+   font-size: 30px; 
+}
+
 h1{
-    margin: 30px;
-    text-align: center;
-    
+    margin: 20px;
+    text-align: center; 
+    font-size: 40px;
+}
+
+label{
+    font-size: 30px;
 }
 
 input{
@@ -54,9 +69,11 @@ input{
 
 button{
     margin:10px;
-    padding: 10px;
+    padding: 5px 10px 5px 10px;
     border-radius: 9px;
     border-color: black;
+    font-family: 'Tangerine', cursive;
+    font-size: 25px;
 }
 
 /* entry page style */
@@ -100,6 +117,7 @@ table,th,td{
     padding:10px;
     overflow:visible;
     box-sizing: content-box;
+    font-size: 25px;
 }
 
 
