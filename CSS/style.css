@@ -2,18 +2,24 @@
     margin: 0;  
 } 
 body{
-    font-family: 'Tangerine', cursive;
+    font-family: 'Tangerine';
 /*    font-family: 'Dancing Script', cursive;*/
+/*    background-color: #fd625e;*/
+    
 }
 /*index page style*/
 /* nav style */
-ul {
+nav ul{
 	list-style-type: none;
 	overflow: hidden;
 	background-color: rgb(8, 53, 130);
+    width: 100%;
+    position: fixed;
+    opacity: 0.6;
 }
 li {
 	float: right;
+    margin-right: 50px;
 }
 li a{
 	display: block;
@@ -22,19 +28,84 @@ li a{
 	text-decoration: none;
     font-size: 25px; 
 }
+
+li.appname{
+    float: left;
+}
+
 li a:hover{
     background-color: red;
 }
+
 a{
     text-decoration: none;
 }
+
 i{
     font-size: 20px;
 }
-#banner{
-    background: url(../images/writing-diary.jpg) no-repeat center ;
+
+h1{
+
+    text-align: center; 
+    font-size: 40px;
+}
+
+p{
+   font-size: 30px; 
+}
+
+h2{
+    text-align: center; 
+    font-size: 40px;
+    margin: 50px;
+    text-transform: uppercase;
+}
+
+.banner{
+    background: url(../images/banner.jpg) no-repeat center ;
     background-size: cover;
     height: 500px;
+}
+
+.how-sign{
+    background: url(../images/purple.jpg) no-repeat center ;
+    background-size: cover;
+    height: 500px;
+    float: left;
+    height: 500px;
+    width: 700px;
+}
+
+.how-entry{
+    background: url(../images/text-cup.jpg) no-repeat center ;
+    background-size: cover;
+    float: right;
+    height: 500px;
+    width: 650px;
+}
+
+.how-dashboard{
+    background: url(../images/text-cup.jpg) no-repeat center ;
+    background-size: cover;
+    float: left;
+    height: 500px;
+    width: 700px;
+}
+
+.guide-right{
+    margin-top: 6em;
+    text-align: center;
+    float: right;
+     position: relative;
+    right: 15em;
+}
+.guide-left{
+    margin-top: 6em;
+    text-align: center;
+    float: right;
+    position: relative;
+    right: 18em;
 }
 
 /* signin and signup  */
@@ -44,16 +115,6 @@ i{
     float: right;
     position: relative;
     right: 13em;
-}
-
-p{
-   font-size: 30px; 
-}
-
-h1{
-    margin: 20px;
-    text-align: center; 
-    font-size: 40px;
 }
 
 label{
@@ -86,20 +147,29 @@ button{
     padding: 5px 10px 5px 10px;
     border-radius: 9px;
     border-color: black;
-    font-family: 'Tangerine', cursive;
+    font-family: 'Tangerine';
     font-size: 25px;
 }
+
+button:hover{
+    transform: scale(1.1);
+}
+
+#home{
+    background-color: dodgerblue;
+}
+
 /* entry page style */
 .date{
     align-content: center;
-    margin: 200px 20px 200px 400px;
+    margin: 130px 20px 200px 400px;
     float:left;   
 }
 .entry{
     text-align: center;
 }
 .typing-area{
-    margin: 100px 230px 0px 0px;
+    margin: 20px 230px 0px 0px;
     float: right; 
 }
 textarea{
@@ -117,15 +187,36 @@ table{
 }
 table,th,td{
     border-bottom: solid;
-    border-top: solid;
     border-right: solid;
     border-color:#FD4D02;
     border-collapse: collapse;
-    padding:10px;
-    overflow:visible;
+    padding: 10px;
+    overflow: visible;
     box-sizing: content-box;
     font-size: 25px;
 }
 td{
     padding:30px;
+}
+   
+/*footer style*/
+footer{
+    padding-top: 20px;
+/*    padding-left: 200px;*/
+    background-color: crimson;
+    text-align: center;
+    align-content: center;
+    position:relative;
+    top: 95em;
+/*    right: 200px;*/
+}
+
+.social{
+    list-style: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.social:hover{
+    color: aqua;
 }
